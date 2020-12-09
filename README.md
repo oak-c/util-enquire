@@ -1,9 +1,9 @@
 # enquire.js 的二次封装
 
-![](https://img.shields.io/badge/Language-TypeScript-orange.svg)
-[![Build Status](https://travis-ci.com/oak-c/util-holidays.svg?branch=main)](https://travis-ci.com/oak-c/util-holidays)
-[![Coverage Status](https://coveralls.io/repos/github/oak-c/util-holidays/badge.svg)](https://coveralls.io/github/oak-c/util-holidays)
-[![](https://img.shields.io/npm/v/util-holidays.svg)](https://www.npmjs.com/package/util-holidays)
+![](https://img.shields.io/badge/Language-tsx-orange.svg)
+[![Build Status](https://travis-ci.com/oak-c/util-enquire.svg?branch=main)](https://travis-ci.com/oak-c/util-enquire)
+[![Coverage Status](https://coveralls.io/repos/github/oak-c/util-enquire/badge.svg?branch=main)](https://coveralls.io/github/oak-c/util-enquire?branch=main)
+[![](https://img.shields.io/npm/v/util-enquire.svg)](https://www.npmjs.com/package/util-enquire)
 
 ### version
 
