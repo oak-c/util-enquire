@@ -21,16 +21,18 @@ npm i util-holidays
 
 ### util-enquire
 
-import enquireJs from 'enquire.js';
+```typescript
+import enquireJs from 'enquire.js'
 export interface Handler {
-match: () => void;
-unmatch: () => void;
+	match: () => void
+	unmatch: () => void
 }
-export declare type EnquireScreen = (cb: (isMobile?: boolean) => void, query?: string) => Handler | undefined;
-export declare type UnenquireScreen = (handler: Handler, query?: string) => void;
-export declare const enquireScreen: EnquireScreen;
-export declare const unenquireScreen: UnenquireScreen;
-export default enquireJs;
+export declare type EnquireScreen = (cb: (isMobile?: boolean) => void, query?: string) => Handler | undefined
+export declare type UnenquireScreen = (handler: Handler, query?: string) => void
+export declare const enquireScreen: EnquireScreen
+export declare const unenquireScreen: UnenquireScreen
+export default enquireJs
+```
 
 ### enquireScreen(cb, query):
 
