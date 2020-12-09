@@ -15,8 +15,8 @@
 
 ```bash
 # 安装
-npm i util-holidays
-# 或者 yarn add util-holidays
+npm i util-enquire
+# 或者 yarn add util-enquire
 ```
 
 ### util-enquire
