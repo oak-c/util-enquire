@@ -19,19 +19,23 @@ npm i util-enquire
 # 或者 yarn add util-enquire
 ```
 
-### util-enquire
+### util-enquire 类型说明
 
 ```typescript
-import enquireJs from 'enquire.js'
 export interface Handler {
 	match: () => void
 	unmatch: () => void
 }
 export declare type EnquireScreen = (cb: (isMobile?: boolean) => void, query?: string) => Handler | undefined
 export declare type UnenquireScreen = (handler: Handler, query?: string) => void
-export declare const enquireScreen: EnquireScreen
-export declare const unenquireScreen: UnenquireScreen
-export default enquireJs
+
+/*  使用  */
+import { enquireScreen, unenquireScreen, Handler } from 'util-enquire'
+// 注册监听
+const handler = enquireScreen((e: any) => {})
+// TODO
+// 注销监听
+unenquireScreen(handler as Handler)
 ```
 
 ### enquireScreen(cb, query):
